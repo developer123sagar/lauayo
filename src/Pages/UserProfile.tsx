@@ -17,8 +17,7 @@ import {
   useGetSpecificUserVideoQuery,
 } from "@/redux/api/VideoApi";
 import { useGetLoginUserInfoQuery } from "@/redux/api/AuthApi";
-
-import Myfollower = dynamic
+import MyFollowers from "@/components/MyFollowers";
 
 const UserProfile = () => {
   const { id } = useParams();
