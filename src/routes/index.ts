@@ -1,0 +1,1 @@
+export const editorKey: string = import.meta.env.VITE_TEXT_EDITOR_API;
